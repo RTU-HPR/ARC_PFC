@@ -145,9 +145,9 @@
 			(subtractmaskfromsilk no)
 			(outputformat 1)
 			(mirror no)
-			(drillshape 1)
+			(drillshape 0)
 			(scaleselection 1)
-			(outputdirectory "")
+			(outputdirectory "production/")
 		)
 	)
 	(footprint "ABMM2-12.000MHZ-D1-T:ABMM2"
@@ -41394,6 +41394,46 @@
 			)
 		)
 	)
+	(gr_line
+		(start 105 165.5)
+		(end 105 173)
+		(stroke
+			(width 0.08382)
+			(type solid)
+		)
+		(layer "B.SilkS")
+		(uuid "99ca61ec-6c5c-436c-a54c-454fb276f63b")
+	)
+	(gr_line
+		(start 105 165.5)
+		(end 135 165.5)
+		(stroke
+			(width 0.08382)
+			(type solid)
+		)
+		(layer "B.SilkS")
+		(uuid "efda6273-868e-4174-9469-7f6cbf5ca8bf")
+	)
+	(gr_line
+		(start 105 173)
+		(end 135 173)
+		(stroke
+			(width 0.08382)
+			(type solid)
+		)
+		(layer "B.SilkS")
+		(uuid "ed6c23ea-efae-4cfc-9d78-5ad0978cc6da")
+	)
+	(gr_line
+		(start 135 173)
+		(end 135 165.5)
+		(stroke
+			(width 0.08382)
+			(type solid)
+		)
+		(layer "B.SilkS")
+		(uuid "20b6d8b5-f88f-4ef4-9502-99a0cecba633")
+	)
 	(gr_arc
 		(start 95 89.5)
 		(mid 95.87868 87.37868)
@@ -41477,30 +41517,6 @@
 		)
 		(layer "Edge.Cuts")
 		(uuid "e8bcce8d-09c7-41ca-bcbb-18c9933bb833")
-	)
-	(gr_text "SERVO"
-		(at 96.052866 107.437966 0)
-		(layer "F.SilkS")
-		(uuid "17ca2605-43c2-474c-a5c1-8342826ad05e")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.1)
-			)
-			(justify left bottom)
-		)
-	)
-	(gr_text "SERVO"
-		(at 138.62 106.942442 0)
-		(layer "F.SilkS")
-		(uuid "13e59f02-c93e-40fe-84fa-846bca5e41b3")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.1)
-			)
-			(justify left bottom)
-		)
 	)
 	(gr_text "BATT"
 		(at 102.5 163 90)
@@ -41586,6 +41602,19 @@
 			(justify left bottom)
 		)
 	)
+	(gr_text "SERVO"
+		(at 96.052866 107.437966 0)
+		(layer "F.SilkS")
+		(uuid "17ca2605-43c2-474c-a5c1-8342826ad05e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
 	(gr_text "2026"
 		(at 97.55 103.89 0)
 		(layer "F.SilkS")
@@ -41594,6 +41623,45 @@
 			(font
 				(size 1 1)
 				(thickness 0.2)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "SERVO"
+		(at 138.62 106.942442 0)
+		(layer "F.SilkS")
+		(uuid "13e59f02-c93e-40fe-84fa-846bca5e41b3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "BOOT"
+		(at 130.5 135.5 0)
+		(layer "F.SilkS")
+		(uuid "d393e406-1c24-4a4c-bb28-e891cdaf642e")
+		(effects
+			(font
+				(size 1.2 1.2)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "RESET"
+		(at 130 150.5 270)
+		(layer "F.SilkS")
+		(uuid "f87aecea-9dc7-4caa-b614-a784d2f4e101")
+		(effects
+			(font
+				(size 1.2 1.2)
+				(thickness 0.3)
 				(bold yes)
 			)
 			(justify left bottom)
@@ -43064,7 +43132,7 @@
 		(uuid "3b4ef5c9-80ba-4c65-b797-06b0d4d103b4")
 	)
 	(via
-		(at 132.5 135.5)
+		(at 133.5 135.9)
 		(size 0.6)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")

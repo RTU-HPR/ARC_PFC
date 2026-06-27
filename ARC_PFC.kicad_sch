@@ -21817,7 +21817,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_Push"
+		(property "Value" "BOOT"
 			(at 490.22 149.86 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32305,8 +32305,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2.94k"
-			(at 463.042 256.54 0)
+		(property "Value" "3k"
+			(at 465.328 256.286 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -39483,7 +39483,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_Push"
+		(property "Value" "RESET"
 			(at 45.72 237.49 0)
 			(show_name no)
 			(do_not_autoplace no)

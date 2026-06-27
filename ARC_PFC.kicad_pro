@@ -603,7 +603,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "production/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
@@ -894,7 +894,7 @@
         "uuid": "ae870f52-69c5-42d4-a96b-91dd3b52c883"
       }
     ],
-    "used_designators": "Q7,#PWR127,D6-8",
+    "used_designators": "",
     "variants": []
   },
   "sheets": [
